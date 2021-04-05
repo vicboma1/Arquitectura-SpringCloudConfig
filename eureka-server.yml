@@ -1,0 +1,15 @@
+pring:
+  application:
+    name: eureka-server
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    registerWithEureka: false #Evita la recursión de su registro
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+  server:
+    waitTimeInMsWhenSyncEmpty: 0    #wait time for subsequent sync
