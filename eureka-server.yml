@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: eureka-remote-server
-
 server:
   port: 8761
 
