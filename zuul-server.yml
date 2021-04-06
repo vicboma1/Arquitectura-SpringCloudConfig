@@ -1,0 +1,9 @@
+server:
+  port: 8080 
+  
+zuul:
+  ignoredServices: '*'
+  routes:
+    echo-service:
+      path: /id/**
+      url: http://localhost:8809
