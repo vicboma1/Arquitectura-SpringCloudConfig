@@ -7,3 +7,6 @@ zuul:
     echo-service:
       path: /id/**
       url: http://localhost:8809
+    echo-service:
+      path: /ids
+      url: http://localhost:80
