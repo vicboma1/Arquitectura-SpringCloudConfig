@@ -4,9 +4,9 @@ server:
 zuul:
   ignoredServices: '*'
   routes:
-    echo-service:
+    echo-service-1:
       path: /id/**
       url: http://localhost:8809
-    echo-service:
+    echo-service-2:
       path: /ids
       url: http://localhost:80
